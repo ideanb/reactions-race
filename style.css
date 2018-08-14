@@ -1,0 +1,75 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+  height: 115px;
+  padding-top: 10px;
+  background-color: #73ccd2;
+}
+
+#logo {
+  text-align: center;
+}
+
+#logo img:first-child {
+  width: 140px;
+}
+
+#reload-icon {
+  float: right;
+  position: relative;
+  right: 60px;
+  cursor: pointer;
+}
+
+#race-track {
+  margin-top: 71px;
+  padding: 0 60px;
+}
+
+#track1 {
+  background-color: #53d3d0
+}
+
+#track2 {
+  background-color: #ffd42d;
+}
+
+#track3 {
+  background-color: #a2da17;
+}
+
+#track4 {
+  background-color: #d96ab7;
+}
+
+.track {
+  width: 100%;
+  height: 60px;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 150px;
+  width: 100%;
+  background-color: #86eaea;
+  text-align: center;
+  margin-top: 38px;
+  padding-top: 20px;
+}
+
+footer div:first-child {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+  footer {
+    display: none;
+  }
+}
