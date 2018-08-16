@@ -14,8 +14,8 @@ header {
   text-align: center;
 }
 
-#logo img:first-child {
-  width: 140px;
+#logo object:first-child {
+  width: 180px;
 }
 
 #reload-icon {
