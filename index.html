@@ -11,18 +11,28 @@
   <header>
     <div id="logo" class="logo">
       <object id="svgLogo" data="img/logo.svg" type="image/svg+xml"></object>
-      <!-- <img src="img/logo.svg" alt="logo" /> -->
-      <img src="img/reload.png" id="reload-icon" alt="reload" />
     </div>
   </header>
   <div id="race-track">
-    <div id="track1" class="track"></div>
-    <div id="track2" class="track"></div>
-    <div id="track3" class="track"></div>
-    <div id="track4" class="track"></div>
+    <div id="track1" class="track">
+      <div class="runner" id="bioexpert"></div>
+      <div class="finish-line"></div>
+    </div>
+    <div id="track2" class="track">
+      <div class="runner" id="mariposa"></div>
+      <div class="finish-line"></div>
+    </div>
+    <div id="track3" class="track">
+      <div class="runner" id="patricia"></div>
+      <div class="finish-line"></div>
+    </div>
+    <div id="track4" class="track">
+      <div class="runner" id="panther"></div>
+      <div class="finish-line"></div>
+    </div>
   </div>
   <footer>
-    <div><img src="img/go.png" alt="go" /></div>
+    <div><img src="img/go.png" alt="go" onclick="run()"/></div>
   </footer>
   <script src="reaction.js"></script>
   <script src="leftEye.js"></script>

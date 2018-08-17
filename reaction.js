@@ -6,7 +6,10 @@ const reaction = {
   vx: 0,
   vy: 0,
   direction: 1,
-  text: "test",
+  element: "<div />",
+  setElement: function(element) {
+    this.element = element;
+  },
   setPosition: function(x, y) {
     this.x = x; 
     this.y = y;
@@ -21,12 +24,10 @@ const reaction = {
     this.vx = vx;
   },
   draw: function() {
-    const body = document.querySelector("body");
-    const div = document.createElement('div', { class: "word" });
+    const div = this.element
     div.textContent = this.text;
     div.style.transform = `translate(${this.x}px, ${this.y}px)`;
     this.element = div;
-    body.appendChild(this.element);
   },
   update: function() {
     this.x += this.vx;

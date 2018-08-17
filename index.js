@@ -1,18 +1,16 @@
-// const reactions = [];
+const reactions = [];
+const elements = ["bioexpert", "patricia", "panther", "mariposa"];
 
-// for(i=1;i<=4;i++) {
-//   reaction.setPosition(0, 0);
-//   reaction.setVelocityX(1);
-//   reaction.draw();
-//   reactions.push(Object.assign({}, reaction));
-// }
+for (i = 0; i < elements.length; i++) {
+  const element = document.querySelector(`#${elements[i]}`);
+  reaction.setElement(element);
+  reactions.push(Object.assign({}, reaction));
+}
 
-// const run = () => {
-//   reactions.forEach(function(r) {
-//     r.setVelocityX(Math.random() * 4);
-//     r.update();
-//   })
-//   requestAnimationFrame(run);
-// };
-
-// run();
+const run = () => {
+  reactions.forEach(function(r) {
+    r.setVelocityX(Math.random() * 4);
+    r.update();
+  });
+  requestAnimationFrame(run);
+};
