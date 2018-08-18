@@ -181,7 +181,40 @@
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
+  header {
+    height: 80px;
+    padding-top: 7px;
+  }
+
+  #logo object:first-child {
+    width: 100px;
+  }
+
+  #race-track {
+    margin-top: 50px;
+  }
+
+  .track {
+    height: 55px;
+    margin-bottom: 10px;
+  }
+
+  .finish-line {
+    height: 55px;
+  }
   
+  .runner {
+    width: 45px;
+    height: 42px;
+  }
+
+  footer {
+    height: 60px;
+  }
+
+  footer div img {
+    width: 70px;
+  }
 }
 
 /* Small Devices, Tablets */
