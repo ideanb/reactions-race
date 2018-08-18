@@ -19,7 +19,7 @@ const run = () => {
       alert(`The winner is ${winner}`);
     }
     if (!finished) {
-      r.vx = Math.random() * 3;
+      r.vx = Math.random() * 4;
       r.update();
     }
   });
