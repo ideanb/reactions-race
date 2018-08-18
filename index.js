@@ -16,11 +16,14 @@ const run = () => {
     if (r.x >= finishLine.offsetLeft) {
       finished = true;
       winner = r.element.getAttribute("id");
+      alert(`The winner is ${winner}`)
     }
     if (!finished) {
       r.vx = Math.random() * 4;
       r.update();
     }
   });
-  requestAnimationFrame(run);
+  if (!finished) {
+    requestAnimationFrame(run);
+  }
 };
