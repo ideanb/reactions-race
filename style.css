@@ -124,7 +124,7 @@
   footer {
     position: absolute;
     bottom: 0;
-    height: 105px;
+    height: 70px;
     width: 100%;
     background-color: #86eaea;
     text-align: center;
@@ -137,27 +137,44 @@
   }
 
   footer div img {
-    width: 131px;
+    width: 85px;
   }
 }
 
 /* Extra Small Devices, Phones */ 
 @media only screen and (min-width : 480px) {
-
+  
 }
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  footer {
+    height: 105px;
+  }
 
+  footer div img {
+    width: 131px;
+  }
 }
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+  footer {
+    height: 140px;
+  }
 
+  footer div img {
+    width: 131px;
+  }
 }
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+
+}
+
+/* XLarge Devices, Wide Screens */
+@media only screen and (min-width : 1920px) {
   header {
     height: 172px;
     padding-top: 14px;
@@ -192,4 +209,9 @@
   footer div img {
     width: 250px;
   }
+}
+
+/* XXLarge Devices, Wide Screens */
+@media only screen and (min-width : 2560px) {
+
 }
