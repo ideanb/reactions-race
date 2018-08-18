@@ -221,7 +221,40 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (min-width : 1200px) {
+  header {
+    height: 120px;
+    padding-top: 10px;
+  }
 
+  #logo object:first-child {
+    width: 150px;
+  }
+
+  #race-track {
+    margin-top: 72px;
+  }
+
+  .track {
+    height: 60px;
+    margin-bottom: 10px;
+  }
+
+  .finish-line {
+    height: 60px;
+  }
+  
+  .runner {
+    width: 53px;
+    height: 50px;
+  }
+
+  footer {
+    height: 100px;
+  }
+
+  footer div img {
+    width: 120px;
+  }
 }
 
 /* XLarge Devices, Wide Screens */
